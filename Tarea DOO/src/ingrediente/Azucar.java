@@ -1,6 +1,6 @@
 package ingrediente;
 
-public class Angelitos  implements Ingrediente {
+public class Azucar  implements Ingrediente {
     private String nombre;
     private int cantidad;
 
@@ -13,7 +13,7 @@ public class Angelitos  implements Ingrediente {
         this.cantidad = cantidad;
     }
 
-    public Angelitos(String nombre, int cantidad) {
+    public Azucar(String nombre, int cantidad) {
         this.nombre = nombre;
         this.cantidad = cantidad;
     }
